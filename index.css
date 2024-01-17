@@ -1,36 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.label{
+.label {
     text-align: center;
 }
 
-.nav ul{
+.nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    
+
 }
 
-.nav ul li{
+.nav ul li {
     padding: 10px 10px 10px 10px;
     margin: 0 5px;
 }
 
-.nav ul li:hover{
+.nav ul li:hover {
     box-shadow: inset 0 4px 0 0 #ff9c08;
     /* display: inline-block;
     border-top: 4px solid orange; */
     cursor: pointer;
 }
 
-.nav ul li a{
+.nav ul li a {
     text-decoration: none;
     color: black;
 }
-.sec1{
+
+.sec1 {
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -38,31 +39,103 @@
 .sec1 img {
     max-width: 100%;
     height: auto;
+}
+
+.sec2 {
+    background-color: rgb(230, 225, 225);
+    padding: 2%;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.sec2 p {
+    text-align: center;
+    padding: 2%;
+}
+
+.sec2 span {
+    margin-left: 37%;
+    padding: 2%;
+}
+
+.sec2 span b {
+    color: orange;
+}
+
+#philosophy {
+    text-align: center;
+    font-size: 150%;
+    color: orange;
+    padding: 2%;
+
+}
+.sec3{
+    padding: 2%;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+   
+}
+#Services {
+    text-align: center;
+    font-size: 150%;
+    color: orange;
+    padding: 2%;
+
+}
+.bigbox {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
   }
 
-.sec2{
-    background-color: antiquewhite;
-}
-
-#philosophy{
+  .box {
+    width: 22%;
+    /* height: 150px; */
+    background-color: #13131397;
+    color: #fff;
     text-align: center;
-    color:orange;
-    
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+#Num{
+    font-size: 300%;
 }
-
-
-
-
-footer{
+.btn{
+    margin-left: 46%;
+    margin-top: 2%;
+    padding: 1%;
+    border: 2px solid orange;
+    background-color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn a:hover{
+    cursor: pointer;
+    color: orange;
+}
+footer {
     text-align: center;
     background-color: orange;
     height: auto;
-}
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
 
-.f1 p a{
+}
+.f1{
+    font-size: 100%;
+}
+.f1 p a {
     text-decoration: none;
     color: black;
 
+}
+.f2{
+    font-size: 10%;
 }
 .mySlides {
     display: none;
@@ -78,6 +151,7 @@ img {
     position: relative;
     margin: auto;
 }
+
 .active {
     background-color: #717171;
 }
