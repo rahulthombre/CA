@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.label{
+    text-align: center;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.nav ul li{
+    padding: 10px 10px 10px 10px;
+    margin: 0 5px;
+}
+
+.nav ul li:hover{
+    box-shadow: inset 0 4px 0 0 #ff9c08;
+    /* display: inline-block;
+    border-top: 4px solid orange; */
+    cursor: pointer;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.sec1{
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.sec1 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.sec2{
+    background-color: antiquewhite;
+}
+
+#philosophy{
+    text-align: center;
+    color:orange;
+    
+}
+
+
+
+
+footer{
+    text-align: center;
+    background-color: orange;
+    height: auto;
+}
+
+.f1 p a{
+    text-decoration: none;
+    color: black;
+
+}
