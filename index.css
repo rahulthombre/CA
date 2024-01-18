@@ -7,7 +7,17 @@
     text-align: center;
 }
 
-.nav ul {
+
+/* @media only screen and(max-width:925px){
+    .label img{
+        width:20px;
+    }
+
+} */
+    
+
+.nav ul{
+
     display: flex;
     justify-content: center;
     list-style: none;
@@ -203,7 +213,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 900px;
+    max-width: 100%;
     position: relative;
     margin: auto;
 }
