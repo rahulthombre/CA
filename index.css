@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.label{
+.label {
     text-align: center;
 }
+
 
 /* @media only screen and(max-width:925px){
     .label img{
@@ -16,29 +17,31 @@
     
 
 .nav ul{
+
     display: flex;
     justify-content: center;
     list-style: none;
-    
+
 }
 
-.nav ul li{
+.nav ul li {
     padding: 10px 10px 10px 10px;
     margin: 0 5px;
 }
 
-.nav ul li:hover{
+.nav ul li:hover {
     box-shadow: inset 0 4px 0 0 #ff9c08;
     /* display: inline-block;
     border-top: 4px solid orange; */
     cursor: pointer;
 }
 
-.nav ul li a{
+.nav ul li a {
     text-decoration: none;
     color: black;
 }
-.sec1{
+
+.sec1 {
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -46,31 +49,159 @@
 .sec1 img {
     max-width: 100%;
     height: auto;
+}
+
+.sec2 {
+    background-color: rgb(230, 225, 225);
+    padding: 2%;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.sec2 p {
+    text-align: center;
+    padding: 2%;
+}
+
+.sec2 span {
+    margin-left: 37%;
+    padding: 2%;
+}
+
+.sec2 span b {
+    color: orange;
+}
+
+#philosophy {
+    text-align: center;
+    font-size: 150%;
+    color: orange;
+    padding: 2%;
+
+}
+.sec3{
+    padding: 2%;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+   
+}
+#Services {
+    text-align: center;
+    font-size: 150%;
+    color: orange;
+    padding: 2%;
+
+}
+.bigbox {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
   }
 
-.sec2{
-    background-color: antiquewhite;
-}
-
-#philosophy{
+  .box {
+    width: 22%;
+    /* height: 150px; */
+    /* background-image: url(lines1.jpg); */
+    background-color: #79757597;
+    color: #f6f1f1;
     text-align: center;
-    color:orange;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+#Num{
+    font-size: 300%;
+}
+.btn{
+    margin-left: 46%;
+    margin-top: 2%;
+    padding: 1%;
+    border: 2px solid orange;
+    background-color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn a:hover{
+    cursor: pointer;
+    color: orange;
+}
+.sec4{
+    margin: 0;
+      padding: 0;
+      height: 50vh;
+      width: 100%;
+      /* display: flex; */
+      /* justify-content: right; */
+      /* align-items: center; */
+      background-image: url('e.webp'); 
+      background-size: cover;
+      background-position: center;
+      opacity: 0.6;
+      
+}
+.j1{
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 60%;
+    padding-top: 10%;
+    font-size: 60px;
     
 }
+.j2{
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 60%;
+    padding-top: 2%;
+    font-size: 60px;
+}
+.btn1{
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 63%;
+    width: 15%;
+    margin-top: 3%;
+    padding: 1%;
+    border: 2px solid orange;
+    border-radius: 25px;
+    background-color: white;
+}
+.btn1 a{
+    padding: 1%;
+    text-decoration: none;
+    color: orange;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: orange;
+    color: white;
 
+}
+.btn1 a:hover{
+    color: white;
+}
 
-
-
-footer{
+footer {
     text-align: center;
     background-color: orange;
     height: auto;
-}
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
 
-.f1 p a{
+}
+.f1{
+    font-size: 100%;
+}
+.f1 p a {
     text-decoration: none;
     color: black;
 
+}
+.f2{
+    font-size: 10%;
 }
 .mySlides {
     display: none;
@@ -86,6 +217,7 @@ img {
     position: relative;
     margin: auto;
 }
+
 .active {
     background-color: #717171;
 }
