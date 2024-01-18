@@ -5,7 +5,18 @@
 
 .label {
     text-align: center;
+    width: 100%;
+    height: auto;
 }
+
+@media only screen and (max-width: 800px) {
+    .label img {
+    width: 70%;
+    position: relative;
+    /* top: 40px; */
+    }
+    }
+
 
 
 /* @media only screen and(max-width:925px){
@@ -15,9 +26,10 @@
 
 } */
     
-
+/* .nav{
+    width: 100%;
+} */
 .nav ul{
-
     display: flex;
     justify-content: center;
     list-style: none;
@@ -40,6 +52,16 @@
     text-decoration: none;
     color: black;
 }
+
+/* @media only screen and (max-width: 768px) {
+    .nav ul {
+       flex-direction: column;
+       text-align: center;
+    }
+    .nav ul li {
+       margin: 5px 0;
+    }
+ } */
 
 .sec1 {
     background-repeat: no-repeat;
@@ -217,6 +239,7 @@ img {
     position: relative;
     margin: auto;
 }
+
 
 .active {
     background-color: #717171;
