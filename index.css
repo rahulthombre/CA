@@ -92,8 +92,9 @@
   .box {
     width: 22%;
     /* height: 150px; */
-    background-color: #13131397;
-    color: #fff;
+    /* background-image: url(lines1.jpg); */
+    background-color: #79757597;
+    color: #f6f1f1;
     text-align: center;
     padding: 20px;
     margin: 10px;
@@ -118,6 +119,61 @@
     cursor: pointer;
     color: orange;
 }
+.sec4{
+    margin: 0;
+      padding: 0;
+      height: 50vh;
+      width: 100%;
+      /* display: flex; */
+      /* justify-content: right; */
+      /* align-items: center; */
+      background-image: url('e.webp'); 
+      background-size: cover;
+      background-position: center;
+      opacity: 0.6;
+      
+}
+.j1{
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 60%;
+    padding-top: 10%;
+    font-size: 60px;
+    
+}
+.j2{
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 60%;
+    padding-top: 2%;
+    font-size: 60px;
+}
+.btn1{
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 63%;
+    width: 15%;
+    margin-top: 3%;
+    padding: 1%;
+    border: 2px solid orange;
+    border-radius: 25px;
+    background-color: white;
+}
+.btn1 a{
+    padding: 1%;
+    text-decoration: none;
+    color: orange;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+
+}
+.btn1 a:hover{
+    color: white;
+}
+
 footer {
     text-align: center;
     background-color: orange;
