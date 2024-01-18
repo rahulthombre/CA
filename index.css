@@ -7,6 +7,14 @@
     text-align: center;
 }
 
+/* @media only screen and(max-width:925px){
+    .label img{
+        width:20px;
+    }
+
+} */
+    
+
 .nav ul{
     display: flex;
     justify-content: center;
@@ -74,7 +82,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 900px;
+    max-width: 100%;
     position: relative;
     margin: auto;
 }
