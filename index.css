@@ -3,15 +3,19 @@
     margin: 0;
     padding: 0;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 body{
     font-family: "Poppins",sans-serif;
     --color1:#FFF;
     --color2:#181818;
 }
 
+
+/* --------------------------------------Home Header Start---------------------------------------------- */
 .header{
     position: fixed;
     z-index: 1000;
@@ -52,6 +56,8 @@ body{
     background-color: white;
     width: 100%;
 } */
+
+/* --------------------------------------Home Navigation Bar 1 Start---------------------------------------------- */
 
 .nav ul{
     display: flex;
@@ -105,299 +111,10 @@ body{
     }
  } */
 
-.sec1 {
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
-.sec1 img {
-    max-width: 100%;
-    height: auto;
-}
-
-.sec2 {
-    background-color: rgb(230, 225, 225);
-    padding: 2%;
-    font-family: 'Dhurjati', sans-serif;
-    font-family: 'Rubik', sans-serif;
-}
-
-.sec2 p {
-    text-align: center;
-    padding: 2%;
-}
-
-.sec2 span {
-    margin-left: 37%;
-    padding: 2%;
-}
-
-.sec2 span b {
-    color: orange;
-    font-size: 1.4rem;
-}
-
-.wrd{
-    margin-left: 9%;
-}
-
-@media only screen and (max-width: 550px){
-    .wrd{
-        margin-left: 5px;
-        font-size: 14px;
-    }
-    .sec2 span b {
-        color: orange;
-        font-size: 1rem;
-    }
-}
-
-.line1{
-    margin-left: 47%;
-    border-bottom: 2px solid black;
-    width: 5%;
-    transform: rotate(140deg);
-    transform-origin: top;
-}
-
-#philosophy {
-    font-weight: bold;
-    text-align: center;
-    font-size: 200%;
-    color: orange;
-    padding: 2%;
-}
-
-.sec3{
-    padding: 2%;
-    font-family: 'Dhurjati', sans-serif;
-    font-family: 'Rubik', sans-serif; 
-}
-
-.line2{
-    margin-left: 47%;
-    border-bottom: 2px solid orange;
-    width: 5%;
-    transform: rotate(140deg);
-    transform-origin: top;
-}
-
-#Services {
-    font-weight: bold;
-    text-align: center;
-    font-size: 200%;
-    color: orange;
-    padding: 2%;
-}
-
-.bigbox {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    margin-left: 10%;
-    flex-wrap: wrap;
-  }
-
-.box {
-    width: 120px;
-    height: auto;
-    /* height: 150px; */
-    /* background-image: url(lines1.jpg); */
-    background-color: #79757597;
-    color: #f6f1f1;
-    text-align: center;
-    padding: 20px;
-    margin: 2%;
-    box-sizing: border-box;
-    border-radius: 8px;
-}
-
-#Num{
-    font-size: 40px;
-}
-
-.bt{
-    text-align: center;
-}
-
-.btn{
-    /* margin-left: 46%; */
-    margin-top: 2%;
-    padding: 0.8% 2.5%;
-    border: 3px solid orange;
-    background-color: white;
-    transition: 0.7s;
-}
-
-.btn a{
-    text-decoration: none;
-    color: black;
-}
-
-.btn:hover{
-    color: orange;
-}
-
-.btn a:hover{
-    cursor: pointer;
-    color: orange;
-}
-
-.sec4{
-    width: auto;
-    position: relative;
-    height: auto;
-    /* display: flex;
-    justify-content: center; */
-    /* align-items: center; */
-    background-image: url('e.webp'); 
-    background-size: cover;
-    background-position: center;
-    opacity: 0.6; 
-}
-
-.j1 p{
-    position: relative;
-    font-family: 'Dhurjati', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    margin-left: 30%;
-    padding-top: 3%;
-    font-size: 60px;
-    text-align: center;  
-}
-
-.j2 p{
-    position: relative;
-    font-family: 'Dhurjati', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    margin-left: 30%;
-    font-size: 60px;
-    text-align: center;
-}
-
-@media (max-width:800px){
-    .j1 p {
-        font-size: 3rem;
-    }
-    .j2 p {
-        font-size: 3rem;
-    }
-}
-
-.j3 .btn1{
-    position: relative;
-    font-family: 'Dhurjati', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    margin-left: 60%;
-    margin-bottom: 7%;
-    /* font-size: 60px; */
-    text-align: center;
-}
-
-.btn1{
-    position: relative;
-    font-family: 'Dhurjati', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    margin-left: 63%;
-    width: 7rem;
-    margin-top: 3%;
-    padding: 0.5%;
-    border: 2px solid white;
-    border-radius: 25px;
-    background-color: white;
-    text-align: center;
-}
-
-.btn1 a{
-    padding: 1%;
-    text-decoration: none;
-    color: orange;
-}
-
-.btn1:hover{
-    cursor: pointer;
-    background-color: orange;
-    border: 2px solid orange;
-    transition: 0.7s;
-    color: white;
-}
-
-.mySlides {
-    display: none;
-}
-
-img {
-    vertical-align: middle;
-}
+/* ---------------------------------------Home Navigation Bar 1 End----------------------------------------------- */
 
 
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 100%;
-    /* height: auto; */
-    position: relative;
-    margin: auto; 
-}
-
-.active {
-    background-color: #717171;
-}
-
-
-/* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-    .text {
-        font-size: 11px
-    }
-}
-
-footer {
-    text-align: center;
-    background-color: orange;
-    height: auto;
-    /* font-family: 'Dhurjati', sans-serif;
-    font-family: 'Rubik', sans-serif; */
-}
-
-/* .f1 p{
-    color: white;
-} */
-
-.f1 p a {
-    text-decoration: none;
-    color: white;
-    font-weight: 300;
-    z-index: 99;
-}
-
-.f1 i{
-    font-size: 2rem;
-    padding-top: 1%;
-}
-
-.f2{
-    font-size: 12px;
-    color: white;
-    font-weight: 100;
-    padding: 1.5% 0;
-}
+/* --------------------------------------Home Navigation Bar 2 Start---------------------------------------------- */
 
 .nav-bar{
     width: 100%;
@@ -506,12 +223,593 @@ footer {
         right: 0;
     }
 }
-@media(max-width:800px){
-    .f1{display: none;}
+/* --------------------------------------Home Navigation Bar 2 End---------------------------------------------- */
+
+/* ------------------------------------------Home Header End---------------------------------------------------- */
+
+
+
+
+/* ------------------------------------Home Slideshow-Container Start-------------------------------------------- */
+/* .sec1 {
+    background-repeat: no-repeat;
+    text-align: center;
 }
-@media(min-width:800px){
-    .to-top{display: none;}
+
+.sec1 img {
+    max-width: 100%;
+    height: auto;
+} */
+
+.mySlides {
+    display: none;
 }
+/* 
+img {
+    vertical-align: middle;
+} */
+
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto; 
+}
+
+.active {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+/* --------------------------------------Home Slideshow-Container End---------------------------------------------- */
+
+
+/* ------------------------------------------Home Sectoin 2 Start-------------------------------------------------- */
+
+.sec2 {
+    background-color: rgb(230, 225, 225);
+    padding: 2%;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.sec2 p {
+    text-align: center;
+    padding: 2%;
+}
+
+.sec2 span {
+    margin-left: 37%;
+    padding: 2%;
+}
+
+.sec2 span b {
+    color: orange;
+    font-size: 1.4rem;
+}
+
+.wrd{
+    margin-left: 9%;
+}
+
+.line1{
+    margin-left: 47%;
+    border-bottom: 2px solid black;
+    width: 5%;
+    transform: rotate(140deg);
+    transform-origin: top;
+}
+
+#philosophy {
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+    color: orange;
+    padding: 2%;
+}
+
+@media only screen and (max-width: 550px){
+    .wrd{
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .sec2 span b {
+        color: orange;
+        font-size: 1rem;
+    }
+}
+
+/* ---------------------------------------Home Sectoin 2 End ----------------------------------------------- */
+
+
+/* --------------------------------------Home Sectoin 3 Start ---------------------------------------------- */
+
+.sec3{
+    padding: 2%;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif; 
+}
+
+.line2{
+    margin-left: 47%;
+    border-bottom: 2px solid orange;
+    width: 5%;
+    transform: rotate(140deg);
+    transform-origin: top;
+}
+
+#Services {
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+    color: orange;
+    padding: 2%;
+}
+
+.bigbox {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+  }
+
+.box {
+    width: 120px;
+    height: auto;
+    /* height: 150px; */
+    /* background-image: url(lines1.jpg); */
+    background-color: #79757597;
+    color: #f6f1f1;
+    text-align: center;
+    padding: 20px;
+    margin: 2%;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+#Num{
+    font-size: 40px;
+}
+
+.bt{
+    text-align: center;
+}
+
+.btn{
+    /* margin-left: 46%; */
+    margin-top: 2%;
+    padding: 0.8% 2.5%;
+    border: 3px solid orange;
+    background-color: white;
+    transition: 0.7s;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover{
+    color: orange;
+}
+
+.btn a:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+/* ---------------------------------------Home Sectoin 3 End ---------------------------------------------- */
+
+
+/* --------------------------------------Home Sectoin 4 Start ---------------------------------------------- */
+
+.sec4{
+    width: auto;
+    position: relative;
+    height: auto;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    background-image: url('e.webp'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6; 
+}
+
+.j1 p{
+    position: relative;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 30%;
+    padding-top: 3%;
+    font-size: 60px;
+    text-align: center;  
+}
+
+.j2 p{
+    position: relative;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 30%;
+    font-size: 60px;
+    text-align: center;
+}
+
+.j3 .btn1{
+    position: relative;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 60%;
+    margin-bottom: 7%;
+    /* font-size: 60px; */
+    text-align: center;
+}
+
+.btn1{
+    position: relative;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 63%;
+    width: 7rem;
+    margin-top: 3%;
+    padding: 0.5%;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+}
+
+.btn1 a{
+    padding: 1%;
+    text-decoration: none;
+    color: orange;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: orange;
+    border: 2px solid orange;
+    transition: 0.7s;
+    color: white;
+}
+
+@media (max-width:800px){
+    .j1 p {
+        font-size: 3rem;
+    }
+    .j2 p {
+        font-size: 3rem;
+    }
+}
+
+/* ------------------------------------------Home Sectoin 4 End ---------------------------------------------- */
+
+
+/* ---------------------------------------- Home Section 5 Start --------------------------------------------- */
+.hsec5{
+    background-color: #5a5959;
+}
+
+#contactUs{
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+    color: orange;
+    padding: 2%;
+}
+
+.hsec5-1{
+    width: auto;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+.hsec5-1-1{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+#headOffice{
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    padding: 2%;
+}
+
+.hsec5-1-1-1{
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    /* border: 1px solid saddlebrown; */
+}
+
+.hsec5-1-1-1a{
+    padding: 3%;
+}
+
+.hsec5-1-1-1a h6{
+    font-size: 18px;
+    color: #ff8c08;
+    text-align: left;
+}
+
+.hsec5-1-1-1a p{
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+.hsec5-1-1-1b{
+    padding: 3%;
+}
+
+.hsec5-1-1-1b h6{
+    font-size: 18px;
+    color: #ff8c08;
+    text-align: left;
+}
+
+.hsec5-1-1-1b p{
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+.hsec5-1-1-2{
+    display: inline-block;
+    background-image: url('a.webp');
+    width: 300px;
+    height: 150px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+@media (max-width:678px){
+    #contactUs{
+        font-size: 150%;
+        padding: 25px 0;
+    }
+
+    .hsec5-1-1-1a h6{
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .hsec5-1-1-1a p{
+        text-align: center;
+        font-size: 12px;
+    }  
+  
+    .hsec5-1-1-1b h6{
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .hsec5-1-1-1b p{
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+}
+
+/* -------------------------- */
+
+.hrsec5-1-1{
+    display: none;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+#branchOffice{
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    padding: 2%;
+}
+
+.hrsec5-1-1-1{
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    /* border: 1px solid saddlebrown; */
+}
+
+.hrsec5-1-1-1a{
+    padding: 3%;
+}
+
+.hrsec5-1-1-1a h6{
+    font-size: 18px;
+    color: #ff8c08;
+    text-align: left;
+}
+
+.hrsec5-1-1-1a p{
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+.hrsec5-1-1-1b{
+    padding: 3%;
+}
+
+.hrsec5-1-1-1b h6{
+    font-size: 18px;
+    color: #ff8c08;
+    text-align: left;
+}
+
+.hrsec5-1-1-1b p{
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+.hrsec5-1-1-2{
+    display: inline-block;
+    background-image: url('a.webp');
+    width: 300px;
+    height: 150px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+@media (max-width:678px){
+    #branchOffice{
+        font-size: 100%;
+    }
+    .hrsec5-1-1{
+        display: block;
+    }
+
+    .hrsec5-1-1-1a h6{
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .hrsec5-1-1-1a p{
+        text-align: center;
+        font-size: 12px;
+    }
+    
+  
+    .hrsec5-1-1-1b h6{
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .hrsec5-1-1-1b p{
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+}
+
+/* -------------------- */
+/* .hsec5-1-2{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+} */
+
+.hsec5-1-2{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+#headOffice{
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    padding: 2%;
+}
+
+.hsec5-1-2-2{
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    /* border: 1px solid saddlebrown; */
+}
+
+.hsec5-1-2-2a{
+    padding: 3%;
+}
+
+.hsec5-1-2-2a h6{
+    font-size: 18px;
+    color: #ff8c08;
+    text-align: right;
+}
+
+.hsec5-1-2-2a p{
+    font-size: 14px;
+    color: white;
+    text-align: right;
+}
+
+.hsec5-1-2-2b{
+    padding: 3%;
+}
+
+.hsec5-1-2-2b h6{
+    font-size: 18px;
+    color: #ff8c08;
+    text-align: right;
+}
+
+.hsec5-1-2-2b p{
+    font-size: 14px;
+    color: white;
+    text-align: right;
+}
+
+.hsec5-1-2-1{
+    display: inline-block;
+    background-image: url('a.webp');
+    width: 300px;
+    height: 150px;
+    /* border: 1px solid rebeccapurple; */
+}
+/* .bc{
+    display: block;
+} */
+
+@media (max-width:678px){
+
+    .hsec5-1-2{
+        display: none;
+    }
+    /* .bc{
+        display: none;
+    } */
+
+
+}
+
+
+/* ------------------------------------------- Home Section 5 End ---------------------------------------------- */
+
+/* ---------------------------------------- Home Bottom to Top Start ------------------------------------------- */
 .to-top{
     background: rgb(43, 166, 203);
     position: fixed;
@@ -525,8 +823,49 @@ footer {
     pointer-events: none;
     transition: all .6s;
 }
+
 .to-top.active{
     bottom: 40px;
     pointer-events: auto;
     opacity: 1;
 }
+
+@media(min-width:800px){
+    .to-top{display: none;}
+}
+/* ---------------------------------------- Home Bottom to Top End ------------------------------------------- */
+
+
+/* --------------------------------------------- Footer Start ------------------------------------------------ */
+footer {
+    text-align: center;
+    background-color: orange;
+    height: auto;
+    /* font-family: 'Dhurjati', sans-serif;
+    font-family: 'Rubik', sans-serif; */
+}
+
+.f1 p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    z-index: 99;
+}
+
+.f1 i{
+    font-size: 2rem;
+    padding-top: 1%;
+}
+
+.f2{
+    font-size: 12px;
+    color: white;
+    font-weight: 100;
+    padding: 1.5% 0;
+}
+
+@media(max-width:800px){
+    .f1{display: none;}
+}
+
+/* ---------------------------------------- Footer End ------------------------------------------- */
