@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Poppins",sans-serif;
     --color1:#FFF;
@@ -503,4 +505,28 @@ footer {
     #check:checked ~ .menu {
         right: 0;
     }
+}
+@media(max-width:800px){
+    .f1{display: none;}
+}
+@media(min-width:800px){
+    .to-top{display: none;}
+}
+.to-top{
+    background: rgb(43, 166, 203);
+    position: fixed;
+    bottom: 20px;
+    width: 20px;
+    height: auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .6s;
+}
+.to-top.active{
+    bottom: 40px;
+    pointer-events: auto;
+    opacity: 1;
 }
